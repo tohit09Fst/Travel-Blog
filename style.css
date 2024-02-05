@@ -1,0 +1,172 @@
+*{
+  margin:0;
+  padding: 0;
+}
+#menu ul{
+  list-style: none;
+  z-index: 1000;
+}
+#menu ul li{
+background-color: rgb(243, 240, 240);
+width: 279px;
+height: 40px;
+text-align: center;
+line-height: 40px;
+float: left;
+position: relative;
+}
+#menu ul li a{
+  text-decoration: none;
+  color: rgb(8, 7, 7);
+  display: block;
+}
+#menu ul li a:hover{
+  background-color: rgb(174, 96, 81);
+}
+#menu ul ul{
+  position: absolute;
+  display: none;
+}
+#menu ul li:hover > ul{
+  display: block;
+}
+
+
+
+
+.contact{
+  width: 100%;
+  height: 450px;
+  border: 0px solid blue;
+  display: flex;
+  justify-content: space-around;
+ 
+}
+.contact_content{
+  width: 49%;
+  height: 20px;
+  border: 0px solid green;
+  float: left;
+ 
+}
+
+
+
+
+
+.footer{
+  background-color:gainsboro;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+.footer-icons a{
+  color: #000000; /* Set the icon color to black */
+  font-size: 30px;
+  margin-right: 30px; /* Add space between icons */
+  text-decoration: none;
+}
+
+
+
+table{
+  height: 430px;
+}
+input{
+  width: 80%;
+  height: 35px;
+  border: 0px solid gainsboro;
+  border-radius: 10px;
+font-size: 20px;
+background-color: gainsboro;
+}
+textarea{
+  width: 100%;
+  height: 100%;
+  border: 0px solid gainsboro;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: gainsboro;
+}
+select{
+width: 100%;
+height: 35px;
+border: 0px solid gainsboro;
+border-radius: 10px;
+font-size: 20px;
+background-color: gainsboro;
+}
+input [type=button]:hover{
+  background-color: black;
+  color: white;
+}
+
+
+
+
+
+.top_cat{
+  border: 0px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.top_cat_pro{
+  border: 0px solid red;
+  width: 370px;
+  height: 500px;
+  float: left;
+  margin-top: 20x;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4),0 6px 20px 0 rgba(0,0,0,0.35);
+  transition: 1s;
+  background-color: gainsboro;
+  
+}
+.top_cat_pro:hover{
+  transform: scale(1.05);
+}
+.top_cat_pro img{
+  width: 100%;
+  height: 70%;
+}
+.checked{
+  color: orange;
+}
+.starr{
+  border: 0px solid black;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title p{
+  text-align: center;
+  font-size: 17px;
+}
+.title b{
+  color: green;
+  font-size: 20px;
+}
+.btn{
+  border:0px solid green;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn input{
+  height: 40px;
+  width: 130px;
+  border-radius: 7px;
+  border: 0px;
+  background-color: orange;
+  font-size: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4),0 6px 20px 0 rgba(0,0,0,0.35);
+}
+.btn input:hover{
+  background-color: green;
+  color: white;
+}
+
+
